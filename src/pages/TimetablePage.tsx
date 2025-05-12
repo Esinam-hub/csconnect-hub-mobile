@@ -11,16 +11,16 @@ import { timetables, Timetable } from "@/data/timetables";
 
 const TimetablePage = () => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedLevel, setSelectedLevel] = useState<string>("");
-  const [selectedSemester, setSelectedSemester] = useState<string>("");
+  const [selectedLevel, setSelectedLevel] = useState<string>("all");
+  const [selectedSemester, setSelectedSemester] = useState<string>("all");
   
   const filteredTimetables = timetables.filter(timetable => {
     const matchesSearch = timetable.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          timetable.level.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          timetable.semester.toLowerCase().includes(searchTerm.toLowerCase());
     
-    const matchesLevel = selectedLevel ? timetable.level.includes(selectedLevel) : true;
-    const matchesSemester = selectedSemester ? timetable.semester === selectedSemester : true;
+    const matchesLevel = selectedLevel === "all" ? true : timetable.level.includes(selectedLevel);
+    const matchesSemester = selectedSemester === "all" ? true : timetable.semester === selectedSemester;
     
     return matchesSearch && matchesLevel && matchesSemester;
   });
@@ -58,7 +58,7 @@ const TimetablePage = () => {
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
-                  <SelectItem value="">All Levels</SelectItem>
+                  <SelectItem value="all">All Levels</SelectItem>
                   {levels.map(level => (
                     <SelectItem key={level} value={level}>{level}</SelectItem>
                   ))}
@@ -74,7 +74,7 @@ const TimetablePage = () => {
               </SelectTrigger>
               <SelectContent>
                 <SelectGroup>
-                  <SelectItem value="">All Semesters</SelectItem>
+                  <SelectItem value="all">All Semesters</SelectItem>
                   {semesters.map(semester => (
                     <SelectItem key={semester} value={semester}>{semester}</SelectItem>
                   ))}
