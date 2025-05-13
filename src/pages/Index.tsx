@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link } from "react-router-dom";
 import { Card, CardContent } from "@/components/ui/card";
@@ -6,59 +5,45 @@ import { Button } from "@/components/ui/button";
 import { BookText, Users, Newspaper, Calendar, Download, Mail } from "lucide-react";
 import Layout from "@/components/Layout";
 import { departmentInfo } from "@/data/departmentInfo";
-
-const featureItems = [
-  {
-    icon: BookText,
-    title: "Courses",
-    description: "Browse undergraduate and postgraduate courses offered by the department.",
-    link: "/courses"
-  },
-  {
-    icon: Users,
-    title: "Faculty",
-    description: "Meet our experienced faculty members and research staff.",
-    link: "/faculty"
-  },
-  {
-    icon: Newspaper,
-    title: "News & Announcements",
-    description: "Stay updated with the latest department news and announcements.",
-    link: "/news"
-  },
-  {
-    icon: Calendar,
-    title: "Events",
-    description: "View upcoming seminars, workshops, and important deadlines.",
-    link: "/events"
-  },
-  {
-    icon: Download,
-    title: "Timetables",
-    description: "Download class schedules and academic calendars.",
-    link: "/timetable"
-  },
-  {
-    icon: Mail,
-    title: "Contact Us",
-    description: "Get in touch with the department or provide feedback.",
-    link: "/contact"
-  }
-];
-
+const featureItems = [{
+  icon: BookText,
+  title: "Courses",
+  description: "Browse undergraduate and postgraduate courses offered by the department.",
+  link: "/courses"
+}, {
+  icon: Users,
+  title: "Faculty",
+  description: "Meet our experienced faculty members and research staff.",
+  link: "/faculty"
+}, {
+  icon: Newspaper,
+  title: "News & Announcements",
+  description: "Stay updated with the latest department news and announcements.",
+  link: "/news"
+}, {
+  icon: Calendar,
+  title: "Events",
+  description: "View upcoming seminars, workshops, and important deadlines.",
+  link: "/events"
+}, {
+  icon: Download,
+  title: "Timetables",
+  description: "Download class schedules and academic calendars.",
+  link: "/timetable"
+}, {
+  icon: Mail,
+  title: "Contact Us",
+  description: "Get in touch with the department or provide feedback.",
+  link: "/contact"
+}];
 const Index = () => {
-  return (
-    <Layout>
+  return <Layout>
       <div className="page-container">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-csblue-dark via-csblue to-csblue-light text-white rounded-lg overflow-hidden shadow-lg mb-8">
           <div className="p-6 md:p-10">
             <div className="flex items-center gap-4 mb-4">
-              <img 
-                src="/lovable-uploads/b794b8c5-65b8-49d2-960d-b3e53afb6fa1.png" 
-                alt="CSS Logo" 
-                className="h-16 w-16"
-              />
+              
               <div>
                 <h1 className="text-3xl md:text-4xl font-bold mb-2">
                   {departmentInfo.name}
@@ -84,8 +69,7 @@ const Index = () => {
 
         {/* Features Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
-          {featureItems.map((item) => (
-            <Link key={item.title} to={item.link} className="group">
+          {featureItems.map(item => <Link key={item.title} to={item.link} className="group">
               <Card className="h-full transition-all duration-300 group-hover:shadow-md group-hover:border-csblue-light">
                 <CardContent className="p-6 flex flex-col items-center text-center">
                   <div className="bg-csblue/10 p-3 rounded-full mb-4">
@@ -95,8 +79,7 @@ const Index = () => {
                   <p className="text-muted-foreground">{item.description}</p>
                 </CardContent>
               </Card>
-            </Link>
-          ))}
+            </Link>)}
         </div>
 
         {/* Department Stats & Info */}
@@ -163,8 +146,6 @@ const Index = () => {
           </CardContent>
         </Card>
       </div>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Index;
