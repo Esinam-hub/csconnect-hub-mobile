@@ -53,12 +53,21 @@ const Index = () => {
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-csblue-dark via-csblue to-csblue-light text-white rounded-lg overflow-hidden shadow-lg mb-8">
           <div className="p-6 md:p-10">
-            <h1 className="text-3xl md:text-4xl font-bold mb-2">
-              {departmentInfo.name}
-            </h1>
-            <h2 className="text-xl md:text-2xl font-medium mb-6 opacity-90">
-              {departmentInfo.university}
-            </h2>
+            <div className="flex items-center gap-4 mb-4">
+              <img 
+                src="/lovable-uploads/b794b8c5-65b8-49d2-960d-b3e53afb6fa1.png" 
+                alt="CSS Logo" 
+                className="h-16 w-16"
+              />
+              <div>
+                <h1 className="text-3xl md:text-4xl font-bold mb-2">
+                  {departmentInfo.name}
+                </h1>
+                <h2 className="text-xl md:text-2xl font-medium mb-6 opacity-90">
+                  {departmentInfo.university}
+                </h2>
+              </div>
+            </div>
             <p className="text-lg opacity-80 max-w-2xl mb-6">
               {departmentInfo.overview}
             </p>
