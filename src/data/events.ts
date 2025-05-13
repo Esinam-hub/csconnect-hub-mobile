@@ -27,7 +27,7 @@ export const events: Event[] = [
     type: "seminar",
     registrationRequired: true,
     registrationUrl: "https://cs.stateuniversity.edu/events/ai-seminar-registration",
-    imageUrl: "https://images.unsplash.com/photo-1629654291663-b91ad427698f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    imageUrl: ""
   },
   {
     id: "project-showcase-2025",
@@ -40,7 +40,7 @@ export const events: Event[] = [
     organizer: "Department of Computer Science",
     type: "other",
     registrationRequired: false,
-    imageUrl: "https://images.unsplash.com/photo-1603354350317-6f7aaa5911c5?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    imageUrl: ""
   },
   {
     id: "career-fair-spring-2025",
@@ -92,6 +92,6 @@ export const events: Event[] = [
     type: "competition",
     registrationRequired: true,
     registrationUrl: "https://cs.stateuniversity.edu/hackathon",
-    imageUrl: "https://images.unsplash.com/photo-1558403194-611308249627?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+    imageUrl: ""
   }
 ];
