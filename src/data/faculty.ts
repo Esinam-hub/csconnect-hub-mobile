@@ -17,16 +17,16 @@ export interface FacultyMember {
 
 export const faculty: FacultyMember[] = [
   {
-    id: "sarah-johnson",
-    name: "Dr. Sarah Johnson",
+    id: "esinam-aheto",
+    name: "Dr. Esinam Aheto",
     title: "Department Chair & Professor",
     department: "Computer Science",
-    email: "sjohnson@stateuniversity.edu",
+    email: "esinam@stateuniversity.edu",
     phone: "(555) 123-4567",
     office: "Science Building, Room 305",
     imageUrl: "",
     specializations: ["Programming Languages", "Compiler Design", "Computer Science Education"],
-    bio: "Dr. Johnson has been with the department for over 15 years and specializes in programming language theory and compiler design. She has authored multiple textbooks and received the university's Excellence in Teaching award three times.",
+    bio: "Dr. Esinam has been with the department for over 15 years and specializes in programming language theory and compiler design. She has authored multiple textbooks and received the university's Excellence in Teaching award three times.",
     education: [
       "Ph.D., Computer Science, MIT",
       "M.S., Computer Science, Stanford University",
@@ -36,7 +36,7 @@ export const faculty: FacultyMember[] = [
     officeHours: "Mondays and Wednesdays, 2:00 PM - 4:00 PM"
   },
   {
-    id: "Saa Ditoh",
+    id: "saa-ditoh",
     name: "Dr.Saa Ditoh ",
     title: "Department Chair & Professor",
     department: "Computer Science",
@@ -54,7 +54,7 @@ export const faculty: FacultyMember[] = [
     officeHours: "Tuesdays and Thursdays, 10:00 AM - 12:00 PM"
   },
   {
-   id: "Lawrence Tandoh",
+   id: "lawrence-tandoh",
     name: "Dr. Lawrence Tandoh ",
     title: "Associate Professor",
     department: "Computer Science",
@@ -73,16 +73,16 @@ export const faculty: FacultyMember[] = [
     officeHours: "Wednesdays, 1:00 PM - 5:00 PM"
   },
   {
-    id: "michael-chen",
-    name: "Dr. Michael Chen",
+    id: "wakilu-alhassan",
+    name: "Dr. Wakilu Alhassan",
     title: "Associate Professor",
     department: "Computer Science",
-    email: "mchen@stateuniversity.edu",
+    email: "walhassan@stateuniversity.edu",
     phone: "(555) 123-4570",
     office: "Science Building, Room 308",
     imageUrl: "",
     specializations: ["Web Technologies", "Distributed Systems", "Cloud Computing"],
-    bio: "Dr. Chen's work bridges web technologies and distributed systems, with a focus on cloud computing architectures. He collaborates extensively with industry partners on research projects.",
+    bio: "Dr. Wakilu's work bridges web technologies and distributed systems, with a focus on cloud computing architectures. He collaborates extensively with industry partners on research projects.",
     education: [
       "Ph.D., Computer Science, Georgia Tech",
       "M.S., Computer Engineering, University of Michigan",
@@ -92,11 +92,11 @@ export const faculty: FacultyMember[] = [
     officeHours: "Mondays and Fridays, 9:00 AM - 11:00 AM"
   },
   {
-    id: "lisa-thompson",
-    name: "Dr. Lisa Thompson",
+    id: "mubarak-abukari",
+    name: "Dr. Mubarak Abukari",
     title: "Professor",
     department: "Computer Science",
-    email: "lthompson@stateuniversity.edu",
+    email: "mabukari@stateuniversity.edu",
     phone: "(555) 123-4571",
     office: "Science Building, Room 315",
     imageUrl: "",
@@ -110,16 +110,16 @@ export const faculty: FacultyMember[] = [
     officeHours: "Tuesdays and Thursdays, 2:00 PM - 4:00 PM"
   },
   {
-    id: "thomas-wright",
-    name: "Dr. Thomas Wright",
+    id: "alhassan-wumpini",
+    name: "Dr. Alhassan Wumpini",
     title: "Professor",
     department: "Computer Science",
-    email: "twright@stateuniversity.edu",
+    email: "alhassanw@stateuniversity.edu",
     phone: "(555) 123-4572",
     office: "Science Building, Room 320",
     imageUrl: "",
     specializations: ["Artificial Intelligence", "Machine Learning", "Natural Language Processing"],
-    bio: "Dr. Wright directs the AI and Machine Learning Lab, working on projects ranging from NLP to computer vision. His research has been featured in major AI conferences and journals.",
+    bio: "Dr. Wumpini directs the AI and Machine Learning Lab, working on projects ranging from NLP to computer vision. His research has been featured in major AI conferences and journals.",
     education: [
       "Ph.D., Computer Science, University of Illinois",
       "M.S., Artificial Intelligence, University of Edinburgh",
@@ -129,16 +129,16 @@ export const faculty: FacultyMember[] = [
     officeHours: "By appointment"
   },
   {
-    id: "karen-davis",
-    name: "Dr. Karen Davis",
+    id: "clement-delvin",
+    name: "Dr. Clement Delvin",
     title: "Associate Professor",
     department: "Computer Science",
-    email: "kdavis@stateuniversity.edu",
+    email: "kdelvin@stateuniversity.edu",
     phone: "(555) 123-4573",
     office: "Science Building, Room 309",
     imageUrl: "",
     specializations: ["Computer Networks", "Cybersecurity", "Internet of Things"],
-    bio: "Dr. Davis specializes in network security and IoT systems. Before joining academia, she worked at a major tech company's security division and brings practical cybersecurity expertise to her teaching.",
+    bio: "Dr. Clement specializes in network security and IoT systems. Before joining academia, she worked at a major tech company's security division and brings practical cybersecurity expertise to her teaching.",
     education: [
       "Ph.D., Computer Science, University of California, San Diego",
       "M.S., Network Security, New York University",
