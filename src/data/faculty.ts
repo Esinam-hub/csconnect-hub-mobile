@@ -36,16 +36,16 @@ export const faculty: FacultyMember[] = [
     officeHours: "Mondays and Wednesdays, 2:00 PM - 4:00 PM"
   },
   {
-    id: "james-wilson",
-    name: "Dr. James Wilson",
-    title: "Associate Professor",
+    id: "Saa Ditoh",
+    name: "Dr.Saa Ditoh ",
+    title: "Department Chair & Professor",
     department: "Computer Science",
-    email: "jwilson@stateuniversity.edu",
+    email: "ditoh@stateuniversity.edu",
     phone: "(555) 123-4568",
     office: "Science Building, Room 312",
     imageUrl: "",
     specializations: ["Algorithms", "Computational Theory", "Graph Theory"],
-    bio: "Dr. Wilson's research focuses on algorithm design and analysis, particularly in the areas of graph algorithms and computational complexity. He has published extensively in top-tier conferences and journals.",
+    bio: "Dr. Saa Ditoh research focuses on algorithm design and analysis, particularly in the areas of graph algorithms and computational complexity. He has published extensively in top-tier conferences and journals.",
     education: [
       "Ph.D., Computer Science, Princeton University",
       "B.S., Mathematics and Computer Science, Harvard University"
@@ -54,16 +54,16 @@ export const faculty: FacultyMember[] = [
     officeHours: "Tuesdays and Thursdays, 10:00 AM - 12:00 PM"
   },
   {
-    id: "elena-rodriguez",
-    name: "Dr. Elena Rodriguez",
-    title: "Assistant Professor",
+   id: "Lawrence Tandoh",
+    name: "Dr. Lawrence Tandoh ",
+    title: "Associate Professor",
     department: "Computer Science",
-    email: "erodriguez@stateuniversity.edu",
+    email: "tandoh@stateuniversity.edu",
     phone: "(555) 123-4569",
     office: "Science Building, Room 310",
     imageUrl: "",
     specializations: ["Software Engineering", "Object-Oriented Design", "Mobile Computing"],
-    bio: "Dr. Rodriguez joined the department three years ago after working in industry for a decade. She brings practical experience in software development and specializes in object-oriented design patterns and mobile application development.",
+    bio: "Dr. Lawrence joined the department three years ago after working in industry for a decade. She brings practical experience in software development and specializes in object-oriented design patterns and mobile application development.",
     education: [
       "Ph.D., Computer Science, University of California, Berkeley",
       "M.S., Software Engineering, Carnegie Mellon University",
