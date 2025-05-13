@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { BookText, Users, Newspaper, Calendar, Download, Mail } from "lucide-react";
 import Layout from "@/components/Layout";
 import { departmentInfo } from "@/data/departmentInfo";
+
 const featureItems = [{
   icon: BookText,
   title: "Courses",
@@ -36,12 +37,13 @@ const featureItems = [{
   description: "Get in touch with the department or provide feedback.",
   link: "/contact"
 }];
+
 const Index = () => {
   return <Layout>
       <div className="page-container">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-csblue-dark via-csblue to-csblue-light text-white rounded-lg overflow-hidden shadow-lg mb-8">
-          <div className="p-6 md:p-10">
+          <div className="p-6 md:p-10 bg-[url('/lovable-uploads/b794b8c5-65b8-49d2-960d-b3e53afb6fa1.png')] bg-no-repeat bg-right-top bg-contain">
             <div className="flex items-center gap-4 mb-4">
               
               <div>
@@ -148,4 +150,5 @@ const Index = () => {
       </div>
     </Layout>;
 };
+
 export default Index;
