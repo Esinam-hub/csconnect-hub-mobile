@@ -40,12 +40,19 @@ export default function Navigation() {
         )}>
           {!isMobile && (
             <Link to="/" className="flex items-center gap-2">
+<<<<<<< HEAD
+              <div className="bg-csblue text-white p-1.5 rounded-md">
+                <span className="font-bold text-lg">CS</span>
+              </div>
+            
+=======
               <img 
                 src="/lovable-uploads/b794b8c5-65b8-49d2-960d-b3e53afb6fa1.png" 
                 alt="CSS Logo" 
                 className="h-10 w-10"
               />
               <span className="font-semibold text-xl">Connect</span>
+>>>>>>> 4425506820e71b72f63f6d6ce70e9b1a71beeb82
             </Link>
           )}
           
