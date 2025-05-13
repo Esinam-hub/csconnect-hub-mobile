@@ -24,7 +24,7 @@ export const faculty: FacultyMember[] = [
     email: "sjohnson@stateuniversity.edu",
     phone: "(555) 123-4567",
     office: "Science Building, Room 305",
-    imageUrl: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "",
     specializations: ["Programming Languages", "Compiler Design", "Computer Science Education"],
     bio: "Dr. Johnson has been with the department for over 15 years and specializes in programming language theory and compiler design. She has authored multiple textbooks and received the university's Excellence in Teaching award three times.",
     education: [
@@ -43,7 +43,7 @@ export const faculty: FacultyMember[] = [
     email: "jwilson@stateuniversity.edu",
     phone: "(555) 123-4568",
     office: "Science Building, Room 312",
-    imageUrl: "https://images.unsplash.com/photo-1566492031773-4f4e44671857?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "",
     specializations: ["Algorithms", "Computational Theory", "Graph Theory"],
     bio: "Dr. Wilson's research focuses on algorithm design and analysis, particularly in the areas of graph algorithms and computational complexity. He has published extensively in top-tier conferences and journals.",
     education: [
@@ -61,7 +61,7 @@ export const faculty: FacultyMember[] = [
     email: "erodriguez@stateuniversity.edu",
     phone: "(555) 123-4569",
     office: "Science Building, Room 310",
-    imageUrl: "https://images.unsplash.com/photo-1567532939604-b6b5b0db2604?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "",
     specializations: ["Software Engineering", "Object-Oriented Design", "Mobile Computing"],
     bio: "Dr. Rodriguez joined the department three years ago after working in industry for a decade. She brings practical experience in software development and specializes in object-oriented design patterns and mobile application development.",
     education: [
@@ -80,7 +80,7 @@ export const faculty: FacultyMember[] = [
     email: "mchen@stateuniversity.edu",
     phone: "(555) 123-4570",
     office: "Science Building, Room 308",
-    imageUrl: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "",
     specializations: ["Web Technologies", "Distributed Systems", "Cloud Computing"],
     bio: "Dr. Chen's work bridges web technologies and distributed systems, with a focus on cloud computing architectures. He collaborates extensively with industry partners on research projects.",
     education: [
@@ -99,7 +99,7 @@ export const faculty: FacultyMember[] = [
     email: "lthompson@stateuniversity.edu",
     phone: "(555) 123-4571",
     office: "Science Building, Room 315",
-    imageUrl: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "",
     specializations: ["Database Systems", "Data Mining", "Information Retrieval"],
     bio: "With over 20 years in academia, Dr. Thompson is a leader in database research. She has led multiple NSF-funded projects and advises the database research group.",
     education: [
@@ -117,7 +117,7 @@ export const faculty: FacultyMember[] = [
     email: "twright@stateuniversity.edu",
     phone: "(555) 123-4572",
     office: "Science Building, Room 320",
-    imageUrl: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "",
     specializations: ["Artificial Intelligence", "Machine Learning", "Natural Language Processing"],
     bio: "Dr. Wright directs the AI and Machine Learning Lab, working on projects ranging from NLP to computer vision. His research has been featured in major AI conferences and journals.",
     education: [
@@ -136,7 +136,7 @@ export const faculty: FacultyMember[] = [
     email: "kdavis@stateuniversity.edu",
     phone: "(555) 123-4573",
     office: "Science Building, Room 309",
-    imageUrl: "https://images.unsplash.com/photo-1619538189523-51d3e349cd51?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    imageUrl: "",
     specializations: ["Computer Networks", "Cybersecurity", "Internet of Things"],
     bio: "Dr. Davis specializes in network security and IoT systems. Before joining academia, she worked at a major tech company's security division and brings practical cybersecurity expertise to her teaching.",
     education: [
